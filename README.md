@@ -1,4 +1,4 @@
-# EcoBot-On-Azure
+# EcoBot-On-Azure (nazwa projektu - trzeba zmienić)
 Projekt realizowany w ramach przedmiotu "Wprowadzenie do aplikacji i rozwiązań opartych o Sztuczną Inteligencję i Microsoft Azure" prowadzonym na Politechnice Warszawskiej.
 
 ## Opis projektu
