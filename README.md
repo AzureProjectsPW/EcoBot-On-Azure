@@ -15,6 +15,9 @@ https://github.com/AzureProjectsPW/EcoBot-On-Azure
 ## Opis funkcjonalności
 
 ## Architektura
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/64069048/142736761-f7c0b9d4-f569-477f-881b-b2f69ee4eb51.png"/>
+</p>
 
 ## Wybrany stos technologiczny
 
