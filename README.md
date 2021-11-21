@@ -1,7 +1,7 @@
-# Ekologiczny bot
-Projekt realizowany w ramach przedmiotu "Wprowadzenie do aplikacji i rozwiązań opartych o Sztuczną Inteligencję i Microsoft Azure" prowadzonym na Politechnice Warszawskiej. 
+# Ekologiczny Bot
+Projekt realizowany w ramach przedmiotu *Wprowadzenie do aplikacji i rozwiązań opartych o Sztuczną Inteligencję i Microsoft Azure* prowadzonym na Politechnice Warszawskiej. 
 
-## Opis projektu
+## Opis i cel projektu
 Z danych Głównego Urzędu Statystycznego wynika, że w 2020 roku zostało zebranych 13.1 mln ton odpadów komunalnych. Porównując z danymi z 2019 roku nastąpił wzrost o 2.9%. Na jednego mieszkańca przypada średnio 342 kg odpadów komunalnych. 59% odpadów została skierowana do procesu odzysku. Celem naszego projektu było stworzenie bota i wdrożenie go jako aplikacji webowej. Chcieliśmy w ramach projektu zwiększyć świadomość użytkowników na temat ekologii i recyklingu, aby w kolejnych latach ilość odpadów spadała, a procent odpadów wykorzystywanych do odzysku wzrastał. Stworzony bot podaje przydatne informacje związane z segregacją śmieci, ale również na temat zagrożonych gatunków. Bot działa na zasadzie pytań i odpowiedzi. Użytkownik zadaje pytanie, a bot odpowiada.
 
 <a href="https://www.teraz-srodowisko.pl/aktualnosci/gus-ochrona-srodowiska-w-2020-odpady-komunalne-10550.html" target="_blank">Link do danych GUSu</a>
@@ -14,6 +14,17 @@ Z danych Głównego Urzędu Statystycznego wynika, że w 2020 roku zostało zebr
 
 ## Opis funkcjonalności
 
+*Ekologiczny Bot* posiada rozbudowaną bazę wiedzy, która umożliwia użytkownikowi interakcję poprzez zadawanie różnorodnych pytań z kilku kategorii powiązanych z ekologią.
+
+Poniżej przedstawione są funkcjonalności *Ekologicznego Bota*:
+- wyświetlenie pomocy w przypadku chęci przejrzenia przykładowych możliwych pytań, bądź też braku pomysłu na pytanie ze strony użytkownika po otrzymaniu takiego pytania
+- przekazywanie informacji ogólnych dotyczących segregacji odpadów oraz definicji związanych z segregacją
+- możliwość identyfikacji konkretnych rodzajów odpadów przez bota i przekazanie informacji użytkownikowi, do jakich odpadów się one zaliczają
+- wyświetlenie informacji związanych z zagrożonymi gatunkami ssaków, gadów, ryb, owadów, ptaków oraz roślin i grzybów
+- przekazanie informacji o autorach projektu oraz opisu działalności po zadaniu odpowiednich pytań opisanych w sekcji *Opis działania rozwiązania*
+- oprócz odpowiedzi w formie tekstowej, bot przesyła również odpowiedzi zawierające zdjęcia oraz odnośniki do zewnętrznych stron (np. Google Maps)
+- obsługa *follow-up prompts* po części odpowiedzi udzielonych przez bota, aby zasugerować użytkownikowi pytanie, które nawiązuje bezpośrednio do udzielonej odpowiedzi.
+
 ## Architektura
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64069048/142772811-39a68217-45ee-49aa-9e1c-488613ab60a5.png"/>
@@ -21,8 +32,16 @@ Z danych Głównego Urzędu Statystycznego wynika, że w 2020 roku zostało zebr
 
 ## Wybrany stos technologiczny
 
+- Azure:
+  - Active Directory – utworzenie bota w organizacji Politechniki Warszawskiej było niemożliwe, przez co zdecydowaliśmy się na utworzenie nowej organizacji `EcoBotOnAzure`. Możliwość pracy w tej organizacji pozwoliła nam na bezproblemowe skorzystanie ze wszystkich niezbędnych przedstawionych serwisów.
+  - App Service Editor – posłużył on do edycji plików `QnAMakerBaseDialog.cs` oraz  `QnABot.cs`, w których zawarte są odpowiednio domyślna odpowiedź w przypadku nieznalezienia żadnej w przygotowanym Knowledge Base oraz wiadomość powitalna, którą bot wysyła do użytkownika od razu po uruchomieniu.
+  - Bot Service – dzięki tej usłudze powstał bot aplikacji internetowej `EcoBotOnAzure-Bot`.
+  - Cognitive Service – dzięki tej usłudze, konkretnie QnA Maker, byliśmy w stanie utworzyć Knowledge Base, z której korzysta utworzony przez nas bot.
+- Język:
+  - C# – używany był przy edycji plików wspomnianych przy okazji *Azure App Service Editor*.
+
 ## Opis działania rozwiązania
-W celu uruchomienia bota należy przejść na adres <a href="https://webchat.botframework.com/embed/EcoBotOnAzure-Bot/gemini?b=EcoBotOnAzure-Bot&s=htOptp1LqEI.6I42djWzWvpFh7hcKjDJbm_sOUSgh7IdOZClvYwiPt4&username=You" target="_blank">link do Ekologicznego bota</a>. Następnie zostaniemy przekierowani do Web Chatu.
+W celu uruchomienia bota należy zaznaczyć ten <a href="https://webchat.botframework.com/embed/EcoBotOnAzure-Bot/gemini?b=EcoBotOnAzure-Bot&s=htOptp1LqEI.6I42djWzWvpFh7hcKjDJbm_sOUSgh7IdOZClvYwiPt4&username=You" target="_blank">link do *Ekologicznego bota*</a>. Następnie zostaniemy przekierowani do Web Chatu.
 
 ![bot_1](https://user-images.githubusercontent.com/64069048/142758636-5b2a6114-ab02-433e-ada8-8f97d78c5e49.png)
 
@@ -72,3 +91,5 @@ W przypadku pytań, na które bot nie zna odpowiedzi zostanie wyświetlona odpow
 ![bot_6](https://user-images.githubusercontent.com/64069048/142772953-4afd3c09-3f5c-4c6f-bfdc-698de452db72.png)
 
 ## Demo
+Aby obejrzeć demo opisanego wyżej projektu, należy skorzystać z obrazka załączonego poniżej:
+<!-- [!ALT TEXT](IMG LINK)](VIDEO LINK) -->
