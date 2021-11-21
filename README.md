@@ -17,10 +17,10 @@ Z danych Głównego Urzędu Statystycznego wynika, że w 2020 roku zostało zebr
 *Ekologiczny Bot* posiada rozbudowaną bazę wiedzy, która umożliwia użytkownikowi interakcję poprzez zadawanie różnorodnych pytań z kilku kategorii powiązanych z ekologią.
 
 Poniżej przedstawione są funkcjonalności *Ekologicznego Bota*:
-- wyświetlenie pomocy w przypadku chęci przejrzenia przykładowych możliwych pytań, bądź też braku pomysłu na pytanie ze strony użytkownika po otrzymaniu takiego pytania
+- wyświetlanie pomocy związanej z przykładowymi pytaniami po otrzymaniu pytania o nie od użytkownika
 - przekazywanie informacji ogólnych dotyczących segregacji odpadów oraz definicji związanych z segregacją
 - możliwość identyfikacji konkretnych rodzajów odpadów przez bota i przekazanie informacji użytkownikowi, do jakich odpadów się one zaliczają
-- wyświetlenie informacji związanych z zagrożonymi gatunkami ssaków, gadów, ryb, owadów, ptaków oraz roślin i grzybów
+- wyświetlanie informacji związanych z zagrożonymi gatunkami ssaków, gadów, ryb, owadów, ptaków oraz roślin i grzybów
 - przekazanie informacji o autorach projektu oraz opisu działalności po zadaniu odpowiednich pytań opisanych w sekcji *Opis działania rozwiązania*
 - oprócz odpowiedzi w formie tekstowej, bot przesyła również odpowiedzi zawierające zdjęcia oraz odnośniki do zewnętrznych stron (np. Google Maps)
 - obsługa *follow-up prompts* po części odpowiedzi udzielonych przez bota, aby zasugerować użytkownikowi pytanie, które nawiązuje bezpośrednio do udzielonej odpowiedzi.
