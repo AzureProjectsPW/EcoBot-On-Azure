@@ -91,6 +91,6 @@ W przypadku pytań, na które bot nie zna odpowiedzi zostanie wyświetlona odpow
 
 ![bot_6](https://user-images.githubusercontent.com/64069048/142772953-4afd3c09-3f5c-4c6f-bfdc-698de452db72.png)
 
-## Demo
 Aby obejrzeć demo opisanego wyżej projektu, należy skorzystać z obrazka załączonego poniżej:
-<!-- [!ALT TEXT](IMG LINK)](VIDEO LINK) -->
+
+[![Demo Projektu #1](https://user-images.githubusercontent.com/92271405/142781864-273507cc-5041-4fce-a88e-0c791f35d036.png)](https://www.youtube.com/watch?v=okmf708xc0g)
