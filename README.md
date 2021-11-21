@@ -33,7 +33,6 @@ Od tego momentu możemy się komunikować z botem. Poniżej znajduje się przyk�
   - Kim jesteś?
   - Do czego służysz?
   - Kto Cię stworzył?
-  - O co mogę Cię zapytać?
 - pytania związane z segregacją śmieci 
   - Czym jest segregacja smieci?
   - Gdzie mam wyrzucic baterie?
@@ -52,11 +51,24 @@ Od tego momentu możemy się komunikować z botem. Poniżej znajduje się przyk�
   - Powiesz mi coś o zagrożonych gatunkach roślin?
   - Powiesz mi coś o zagrożonych gatunkach grzybów?
 
-W przypadku niektórych odpowiedzi otrzymujemy link do strony. Przykładem jest pytanie o najbliższy PSZOK, klikając w link zostaniem przekierowani do Google Maps, gdzie wyświetla się lista najbliższych punktów.
+Bot odpowiada również na pytanie o co można go zapytać. Pojawia się wówczas lista przykładowych pytań i możemyw wybrać jedno z nich.
+
+![bot_7](https://user-images.githubusercontent.com/64069048/142759429-218efee4-5821-4950-a05b-6ae32e773d5f.png)
+
+W przypadku niektórych odpowiedzi otrzymujemy link do strony. Przykładem jest pytanie o najbliższy PSZOK, klikając w link zostaniemy przekierowani do Google Maps, gdzie wyświetli się lista najbliższych punktów.
 
 ![bot_2](https://user-images.githubusercontent.com/64069048/142759122-30b641bc-d54b-417b-976f-4cdb323bb582.png)
 
 ![bot_3](https://user-images.githubusercontent.com/64069048/142759167-c0f976d9-a1fc-4486-b180-5192944e1852.png)
 
+Możemy również w przypadku, niektórych pytań prowadzić dłuższą konwersację z botem. Przykładem jest pytanie o zagrożone gatunki zwierząt.
+
+![bot_4](https://user-images.githubusercontent.com/64069048/142759261-bb531cbe-550d-4c80-87e9-7beeb0dd9b4b.png)
+
+![bot_5](https://user-images.githubusercontent.com/64069048/142759265-a1e2cd0f-4af0-4ff2-a065-5692474d8472.png)
+
+W przypadku pytań, na które bot nie zna odpowiedzi zostanie wyświetlona odpowiedź domyślna.
+
+![bot_6](https://user-images.githubusercontent.com/64069048/142759418-42b7b445-2d23-4bee-85f5-c87e5610e3a5.png)
 
 ## Demo
