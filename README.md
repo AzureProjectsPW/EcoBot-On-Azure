@@ -16,7 +16,7 @@ Z danych Głównego Urzędu Statystycznego wynika, że w 2020 roku zostało zebr
 
 ## Architektura
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/64069048/142736761-f7c0b9d4-f569-477f-881b-b2f69ee4eb51.png"/>
+  <img src="https://user-images.githubusercontent.com/64069048/142772811-39a68217-45ee-49aa-9e1c-488613ab60a5.png"/>
 </p>
 
 ## Wybrany stos technologiczny
@@ -69,6 +69,6 @@ Możemy również w przypadku, niektórych pytań prowadzić dłuższą konwersa
 
 W przypadku pytań, na które bot nie zna odpowiedzi zostanie wyświetlona odpowiedź domyślna.
 
-![bot_6](https://user-images.githubusercontent.com/64069048/142759418-42b7b445-2d23-4bee-85f5-c87e5610e3a5.png)
+![bot_6](https://user-images.githubusercontent.com/64069048/142772953-4afd3c09-3f5c-4c6f-bfdc-698de452db72.png)
 
 ## Demo
