@@ -34,9 +34,10 @@ Poniżej przedstawione są funkcjonalności *Ekologicznego Bota*:
 
 - Azure:
   - Active Directory – utworzenie bota w organizacji Politechniki Warszawskiej było niemożliwe, przez co zdecydowaliśmy się na utworzenie nowej organizacji `EcoBotOnAzure`. Możliwość pracy w tej organizacji pozwoliła nam na bezproblemowe skorzystanie ze wszystkich niezbędnych przedstawionych serwisów.
-  - App Service Editor – posłużył on do edycji plików `QnAMakerBaseDialog.cs` oraz  `QnABot.cs`, w których zawarte są odpowiednio domyślna odpowiedź w przypadku nieznalezienia żadnej w przygotowanym Knowledge Base oraz wiadomość powitalna, którą bot wysyła do użytkownika od razu po uruchomieniu.
-  - Bot Service – dzięki tej usłudze powstał bot aplikacji internetowej `EcoBotOnAzure-Bot`.
-  - Cognitive Service – dzięki tej usłudze, konkretnie QnA Maker, byliśmy w stanie utworzyć Knowledge Base, z której korzysta utworzony przez nas bot.
+  - App Service – wykorzystywany jest przez nas w przypadku *Bota Aplikacji Internetowej* oraz *QnA Maker* – między innymi mogliśmy edytować kod źródłowy bota dzięki App Service'om tworzonym przy okazji tworzenia zasobu *Bota Aplikacji Internetowej*
+  - App Service Editor – posłużył on do edycji plików `QnAMakerBaseDialog.cs` oraz  `QnABot.cs`, w których zawarte są odpowiednio domyślna odpowiedź w przypadku nieznalezienia żadnej w przygotowanym *Knowledge Base* oraz wiadomość powitalna, którą bot wysyła do użytkownika od razu po uruchomieniu.
+  - Bot Service – dzięki tej usłudze powstał *Bot Aplikacji Internetowej* `EcoBotOnAzure-Bot`.
+  - Cognitive Service – dzięki tej usłudze, konkretnie QnA Maker, byliśmy w stanie utworzyć *Knowledge Base*, z której korzysta utworzony przez nas bot.
 - Język:
   - C# – używany był przy edycji plików wspomnianych przy okazji *Azure App Service Editor*.
 
