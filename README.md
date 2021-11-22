@@ -7,10 +7,8 @@ Z danych Głównego Urzędu Statystycznego wynika, że w 2020 roku zostało zebr
 <a href="https://www.teraz-srodowisko.pl/aktualnosci/gus-ochrona-srodowiska-w-2020-odpady-komunalne-10550.html" target="_blank">Link do danych GUSu</a>
 
 ## Skład zespołu
-* Kinga Kocoł
-* Aleksander Wodnicki
-
-<a href="https://github.com/AzureProjectsPW/EcoBot-On-Azure" target="_blank">Link do repozytorium</a>
+* Kinga Kocoł - <a href="https://github.com/kingakocol" target="_blank">Link do konta</a>
+* Aleksander Wodnicki - <a href="https://github.com/AleksanderWodnicki" target="_blank">Link do konta</a>
 
 ## Opis funkcjonalności
 
